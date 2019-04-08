@@ -6,9 +6,22 @@ Mini Convolutional Neural Network
 
 Esse projeto tem a intenção de recriar uma versão conhecida de uma arquitetura de Redes Neurais Convolucionais com o uso da low-level API do TensorFlow. Por exemplo, a recriação da rede `LeNet-5`. 
 
-Por razões de limitação de recursos, como **processamento**, **datasets**, **tempo de implementação** (Duração da Disciplina), tem-se, inicialmente, a implementação de uma versão mais simples, ou uma `mini` versão da arquitetura escolhida. 
+Por razões de limitação de recursos, como **processamento**, **datasets**, **tempo de implementação** (Duração da Disciplina), tem-se, inicialmente, a implementação de uma arquitetura mais simples, ou uma `mini` versão da arquitetura escolhida. 
 
 A intenção aqui é a construção do conhecimento sobre Arquiteturas de Redes Neurais Convolucionais e construção de modelos de Deep Learning com o uso do Tensorflow.
+
+## Chega junto no time
+
+É bacana ter algum conhecimento sobre Machine Learning e um pouquinho sobre a matemática por trás de Redes neurais. Se você não tiver esse conhecimento, não se sinta intimidado. Vamos estudar juntos!
+
+Comece por aqui, será o nosso guia tbm: 
+
+1) [DataCamp - Python Courses](https://www.datacamp.com/courses/tech:python/topic:machine_learning)
+2) [Neural Networks 101 - Synaptic](https://github.com/cazala/synaptic/wiki/Neural-Networks-101)
+3) [Neural Networks 101 - James le](https://medium.com/cracking-the-data-science-interview/neural-networks-101-ee21cd508499)
+4) [Deep Learning — Convolutional Neural Networks Basic 101 - Judy Shih](https://medium.com/@judyshih318/deep-learning-convolutional-neural-networks-basic-101-6f32e219e78f)
+5) [Short Introduction to Convolutions and Pooling: Deep Learning 101! - Packt_Pub](https://medium.com/analytics-vidhya/deep-learning-methods-1700548a3093)
+
 
 # Primeiros Passos
 
