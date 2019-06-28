@@ -1,14 +1,22 @@
-# convnet-architectures
-Mini Convolutional Neural Network
+# Query-image
+Content Based Image Retrieval with Autoencoders
 
 
 # Introdução
 
-Esse projeto tem a intenção de recriar uma versão conhecida de uma arquitetura de Redes Neurais Convolucionais com o uso da low-level API do TensorFlow. Por exemplo, a recriação da rede `LeNet-5`. 
+Esse projeto tem a intenção de recriar uma versão conhecida de um buscador de imagens com o uso do Keras. Esse buscador é um exemplo de um tipo de técnica chamada [Content Based Image Retrieval](https://en.wikipedia.org/wiki/Content-based_image_retrieval). 
 
-Por razões de limitação de recursos, como **processamento**, **datasets**, **tempo de implementação** (Duração da Disciplina), tem-se, inicialmente, a implementação de uma arquitetura mais simples, ou uma `mini` versão da arquitetura escolhida. 
+Para esse projeto, é planejado o uso do Keras para implementação de um [Autoencoder](https://en.wikipedia.org/wiki/Autoencoder). Autoencoders são redes neurais que tem a capacidade de ter em seu output o mesmo input que recebe. Inicialmente isso parece uma trivialidade, mas o grande trunfo da rede é a capacidade dela comprimir os dados no meio do caminho. Outros usos do Autoencoder são a construção de [sistemas de recomendação](https://medium.com/data-hackers/deep-learning-para-sistemas-de-recomenda%C3%A7%C3%A3o-parte-2-filtragem-colaborativa-com-autoencoders-347ba7d53bae). 
 
-A intenção aqui é a construção do conhecimento sobre Arquiteturas de Redes Neurais Convolucionais e construção de modelos de Deep Learning com o uso do Tensorflow.
+
+Nesse projeto, utilizaremos as capacidades de redução de dimensionalidade do Autoencoder e estratégias de recomendação para buscar por imagens que tenham o conteúdo parecido. Alex Krizhevsky e Geoffrey E.Hinton já proporam uma solução, como:
+
+1.[Using Very Deep Autoencoders for Content-Based Image Retrieval](https://pdfs.semanticscholar.org/64b5/4bdf023624da4f261cdd18ac57716658e81f.pdf)
+
+
+Adicionalmente, será utilizado a base de dados [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html), um dataset de 60 mil imagens coloridas de 32x32 pixels. Essas imagens são formadas por 10 classes, sendo elas: 
+
+![cifar](https://appliedmachinelearning.files.wordpress.com/2018/03/cifar2.jpg)
 
 ## Chega junto no time
 
@@ -31,7 +39,7 @@ Em breve um arquivo de `requirements` será disponibilizado. É fortemente recom
 
 Para contribuir com esse projeto, instale os pacotes iniciais:
 
-- [Tensorflow](https://www.tensorflow.org/). Ainda utilizaremos a versão 1.13, apesar da 2.0 estar vindo ai. 
+- [Keras](https://keras.io/)
 
 - [Scikit-learn](https://scikit-learn.org/stable/)
 
@@ -40,17 +48,3 @@ Para contribuir com esse projeto, instale os pacotes iniciais:
 - [Pandas](http://pandas.pydata.org/pandas-docs/stable/)
 
 - [Jupyter Notebook](https://jupyter.org/install) - Opcional, bom para prototipar
-
-# Definição da Arquitetura
-
-Será realizado uma pesquisa inicial para a seleção da arquitetura que será reproduzida. Algumas das arquiteturas podem ser vistas aqui: 
-
-1) [Common architectures in convolutional neural networks.](https://www.jeremyjordan.me/convnet-architectures/)
-
-2) [Review of Deep Learning Algorithms for Image Classification](https://medium.com/zylapp/review-of-deep-learning-algorithms-for-image-classification-5fdbca4a05e2)
-
-3) [LeNet 5](https://engmrk.com/lenet-5-a-classic-cnn-architecture/)
-
-4) [AlexNet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
-
-5) [MobileNet](https://arxiv.org/abs/1704.04861)
